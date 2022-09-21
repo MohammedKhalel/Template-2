@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 3000px;
+perspective: 700px;
+}
+header{
+    width:85%;
+    overflow: auto;
+    margin: auto;
+ }
+.header{
+    float: right;
+    margin:50px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 800;
+}
+.header a{
+ text-decoration: none;
+ font-size: 15px;
+ margin-right: 20px;
+ color: #e43347;
+ padding: 5px;
+ position: relative;
+}
+.headericon-n{
+    float: left;
+    margin-top: 5px;
+}
+.header-icon{
+    float: right;
+}
+.header-icon a{
+    font-size: 25px;
+    color: black;
+    position: relative;
+}
+.label-1{
+    font-size: 12px;
+    margin-left: -20px;
+    font-weight: 750;
+    color: #EB1D36;
+}
+.logo{
+    float: left;
+margin-left: 28px;
+margin-top: 22px;
+
+}
+.logo img{
+    height: 95px;
+width: 200px;
+}
+.nn{
+    float: left;
+    }
+    .drop-down-menu{
+        position: absolute;
+            border: 2px solid #eb5c6d;
+    width: 400px;
+    height: 210px;
+    margin: 30px 0px;
+    box-shadow: 1px 1px 30px 2px ;
+    visibility: hidden;
+    transition:all .2s ease;
+    z-index: 1;
+    background-color: rgba(252, 253, 253, 0.979);
+    }
+    .drop-down{
+        position: absolute;
+        list-style: none;
+        margin: 5px 0px;
+        width: 130px;
+        left: 5px;
+    }
+    .ff {
+        left: 140px;
+    }
+    .gg{
+        left: 280px;
+    }
+    .drop-down li{
+        line-height: 40px;
+    }
+    .drop-down-menu ul li a{
+    color: #bb0e22;
+    }
+    .nn:hover .drop-down-menu{
+        visibility: visible;
+    }
+    .firist-li {
+        border-bottom: 3px dotted black;
+        text-transform: capitalize;
+    }
+
+#bba::before ,#bba:after{
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        box-sizing: border-box;
+        transition: all .5s ease;
+        visibility: hidden;
+    }
+
+#bba::before{
+    border-right: 2px solid #EB1D36;
+    border-top: 2px solid #EB1D36;
+    top: 0;
+    right: 0;
+}
+#bba:after{
+    border-bottom: 2px solid #EB1D36;
+    border-left: 2px solid #EB1D36;
+    bottom: 0;
+    left:0;
+    }
+
+#bba:hover:before ,#bba:hover:after{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+}
+#bba{
+    padding: 5.7px;
+}
+.container1{
+    width: 85%;
+    margin:20px 118px;
+    height: 600px;
+    background: url(../Images/pexels-max-vakhtbovych-6903149.jpg);
+    background-size: cover;
+border-radius: 20px;
+    position: relative;
+
+}
+
+.img-overly{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+    top:0;
+    left: 0;
+    border-radius: 20px;
+
+    background-color: rgba(0, 0, 0,.7); 
+}
+
+.button-1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button-1 input{
+width: 180px;
+height: 40px;
+background-color: #e43347;
+color: #fff;
+border-radius: 20px;
+font-size: 15px;
+margin-left: 200px;
+cursor: pointer;
+}
+.button-1 h2{
+color: #fff;
+word-spacing: 10px;
+line-height: 1.3;
+margin: 30px auto;
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+text-transform: capitalize;
+text-align: center;
+}
+.section-1{
+    width: 85%;
+}
+.main-title{
+    width: 100%;
+    margin: 10px 90px;
+    text-align: center;
+}
+.main-title h2 {
+font-size: 30px;
+margin-top: 50px;
+}
+.sp-title-1 {
+    display: block;
+    width: 110px;
+    height: 2px;
+    background-color: #EB1D36;
+    margin: 20px auto;
+    transition: 1s;
+    text-align: center;
+}
+.main-title:hover .sp-title-1 , .section5-title:hover span {
+width: 180px;
+}
+.section-2{
+   width: 85%;
+   margin: auto; 
+}
+.partitions{
+    float: left;
+    width: 21%;
+margin:30px 20px ;
+position: relative;
+}
+.www{
+    margin-left: 30px;
+}
+.partition-icon{
+    font-size: 33px;
+    position: absolute;
+    width: 35px;
+    padding-left: 8px;
+    top: 150px;
+    left: 230px;
+    background-color: #EB1D36;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.discount{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: #EB1D36;
+    color: #fff;
+}
+.discount p{
+padding: 10px 22px;    
+font-size: 20px;
+}
+.discount span{
+    font-size: 26px;
+    padding: 0px 20px;
+
+}
+.partitions:hover  .partition-icon{
+    visibility: visible;
+}
+.partition-icon a{
+    color: #fff;
+    }
+.partitions img{
+    width: 110%;
+    height: 290px;
+    border-radius: 15px 2px;
+}
+.partition-text{
+        margin-top: 20px;
+}
+ .partition-text p{
+    font-size: 18px;
+color: rgb(177, 170, 170);
+}
+.partition-text span{
+    font-size: 20px;
+font-weight: 700;
+}
+
+.section-3{
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+    height: 400px;
+}
+.text-part{
+    width: 500px;
+    overflow: auto;
+    background-color:#FFF9CA;
+    float: left;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-radius: 15px;
+}
+.icon-1{
+    float: left;
+}
+.icon-1 i{
+font-size: 50px;
+margin: 0px 15px;
+color: #886b2d;
+}
+.text-part-p{
+    font-size: 20px;
+}
+.text-part-sp{
+display: block;
+margin-top: 20px;
+line-height: 1.5;
+font-size: 18px;
+color: #917332;
+}
+.sp2{
+    display: inline-block;
+    width: 45px;
+    height: 3px;
+    background-color: #886b2d;
+    margin: 40px 10px;
+    
+}
+.bb{
+    margin-left: 300px;
+}
+
+.disc{
+    float: left;
+    background-image: url(../Images/ron-mcclenny-SOTWYAgjhlE-unsplash.jpg);
+    background-size: cover;
+    margin: 22px 20px;
+    cursor: pointer;
+    width: 250px;
+height: 325px;
+position: relative;
+transition: .5s;
+border-radius: 15px 30px;
+}
+.uu{
+    margin-left: 40px;
+}
+.rr{
+    background: url(../Images/pexels-anna-shvets-3771691.jpg);
+    background-size: cover;
+}
+.disc-text{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.disc-text p{
+color: rgb(83, 79, 79);
+font-size: 20px;
+}
+.disc:hover {
+    transform: scale(1.13);
+}
+.section-4{
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+.part{
+    float: left;
+    width: 19%;
+    border-right: 1px solid #886b2d;
+    margin: 40px .3%;
+}
+.ico{
+    font-size: 40px;
+    margin: 15px 38%;
+    transition: 0.2s;
+    color: #ce1c31c2;
+}
+.part:hover .ico {
+    transform: translatey(30px);
+visibility: hidden;
+}
+.ico-text {
+   
+   line-height: 1.2;
+}
+.ico-text p{
+   padding-left: 26%;
+   font-size: 18px;
+   font-weight: 700;
+}
+.ico-text span{
+    padding: 5px 8%;
+    font-size: 16px;
+    color: rgb(148, 141, 141);
+}
+.hr1{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #886b2d;
+margin: auto;
+}
+.section-5{
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+.section5-title{
+margin:80px 0px;
+text-align: center;
+}
+.section5-title h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.section5-title span{
+    display: block;
+width: 130px;
+height: 2px;
+background-color: #EB1D36;
+margin:15px auto;
+transition: .5s;
+}
+.section5-title p{
+    font-size: 20px;
+}
+
+.container-2{
+display: flex;
+
+flex-flow: row wrap;
+position: relative;
+
+}
+.sect{
+        width: 27%;
+
+margin: 10px 30px;
+    }
+.front , .back{
+position: absolute;
+height: 350px;
+}
+.front img , .back img {
+    width: 350px;
+    height: 400px;
+    border-radius: 15px 30px;
+}
+.front{
+    z-index: 1;
+    backface-visibility: hidden;
+    transition: .5s;
+}
+.sect:hover .front{
+    transform: rotatey(180deg);
+}
+.back-icm{
+    position: absolute;
+font-size: 35px;
+top: 50%;
+left: 15%;
+}
+.back-icm a{
+color: #fff;
+margin-left: 30px;
+background-color: #c52a3c;
+padding: 3px;
+border-radius: 10px;
+}
+.sect-icon{
+    margin-top: 400px;
+}
+.sect-icon i{
+    margin-top:10px ;
+color: rgba(250, 235, 32, 0.884);
+}
+.sect-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sect-text p{
+    font-size: 18px ;
+    line-height: 1.4;
+    text-transform:capitalize ;
+}
+.sect-text span{
+    font-size: 20px ;
+font-weight: 600;
+}
