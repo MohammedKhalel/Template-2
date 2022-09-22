@@ -131,11 +131,11 @@ width: 200px;
     width: 85%;
     margin:20px 118px;
     height: 600px;
-    background: url(../Images/pexels-max-vakhtbovych-6903149.jpg);
+    background: url(../Images/pexels-maxx-vakhtbovych-6903149.jpg) no-repeat fixed;
     background-size: cover;
+    
 border-radius: 20px;
     position: relative;
-
 }
 
 .img-overly{
@@ -160,7 +160,7 @@ width: 180px;
 height: 40px;
 background-color: #e43347;
 color: #fff;
-border-radius: 20px;
+border-radius: 8px;
 font-size: 15px;
 margin-left: 200px;
 cursor: pointer;
@@ -214,19 +214,19 @@ position: relative;
     margin-left: 30px;
 }
 .partition-icon{
-    font-size: 33px;
+    font-size: 30px;
     position: absolute;
     width: 35px;
-    padding-left: 8px;
-    top: 150px;
+    padding-left: 9px;
+    top: 320px;
     left: 230px;
     background-color: #EB1D36;
     border-radius: 10px;
     visibility: hidden;
 }
 .discount{
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     position: absolute;
     top: 20px;
@@ -235,13 +235,13 @@ position: relative;
     color: #fff;
 }
 .discount p{
-padding: 10px 22px;    
-font-size: 20px;
+padding: 7px 17px;    
+font-size: 18px;
 }
 .discount span{
-    font-size: 26px;
-    padding: 0px 20px;
-
+    font-size: 20px;
+    padding: 0px 15px;
+/* margin-bottom: 5px; */
 }
 .partitions:hover  .partition-icon{
     visibility: visible;
@@ -273,13 +273,14 @@ font-weight: 700;
     height: 400px;
 }
 .text-part{
-    width: 500px;
+    width: 526px;
     overflow: auto;
     background-color:#FFF9CA;
     float: left;
     margin-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 border-radius: 15px;
+margin-left: 20px;
 }
 .icon-1{
     float: left;
@@ -355,8 +356,11 @@ font-size: 20px;
     border-right: 1px solid #886b2d;
     margin: 40px .3%;
 }
+.no-border{
+    border: none;
+}
 .ico{
-    font-size: 40px;
+    font-size: 35px;
     margin: 15px 38%;
     transition: 0.2s;
     color: #ce1c31c2;
@@ -366,8 +370,7 @@ font-size: 20px;
 visibility: hidden;
 }
 .ico-text {
-   
-   line-height: 1.2;
+   line-height: 1.4;
 }
 .ico-text p{
    padding-left: 26%;
@@ -386,6 +389,7 @@ visibility: hidden;
     background-color: #886b2d;
 margin: auto;
 }
+
 .section-5{
     width: 85%;
     margin: auto;
@@ -442,17 +446,26 @@ height: 350px;
 }
 .back-icm{
     position: absolute;
-font-size: 35px;
-top: 50%;
-left: 15%;
+font-size: 16px;
+top: 30%;
+left: 88.7%;
 }
 .back-icm a{
 color: #fff;
-margin-left: 30px;
+margin-top: 20px;
 background-color: #c52a3c;
-padding: 3px;
+padding: 10px;
 border-radius: 10px;
+display: block;
+/* font-size: 35px; */
+
 }
+.padding-left{
+    /* text-align: center; */
+    padding-left:2px;
+    font-size: 18px;
+}
+
 .sect-icon{
     margin-top: 400px;
 }
