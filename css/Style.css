@@ -277,11 +277,16 @@ font-weight: 700;
     overflow: auto;
     background-color:#FFF9CA;
     float: left;
-    margin-top: 20px;
+    margin-top: 20px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 border-radius: 15px;
 margin-left: 20px;
+padding: 15px;
+color: #53421c;
+height: 330px;
+overflow-y: hidden;
 }
+
 .icon-1{
     float: left;
 }
@@ -298,7 +303,7 @@ display: block;
 margin-top: 20px;
 line-height: 1.5;
 font-size: 18px;
-color: #917332;
+color: #53421c;
 }
 .sp2{
     display: inline-block;
@@ -309,7 +314,7 @@ color: #917332;
     
 }
 .bb{
-    margin-left: 300px;
+    margin-left: 280px;
 }
 
 .disc{
@@ -336,11 +341,12 @@ border-radius: 15px 30px;
     top: 20px;
     left: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: rgb(99, 96, 96);
 }
 .disc-text p{
-color: rgb(83, 79, 79);
-font-size: 20px;
+color: #e44154;
+font-size: 19px;
+font-weight: 620;
 }
 .disc:hover {
     transform: scale(1.13);
@@ -448,7 +454,7 @@ height: 350px;
     position: absolute;
 font-size: 16px;
 top: 30%;
-left: 88.7%;
+left: 87.3%;
 }
 .back-icm a{
 color: #fff;
@@ -457,11 +463,9 @@ background-color: #c52a3c;
 padding: 10px;
 border-radius: 10px;
 display: block;
-/* font-size: 35px; */
 
 }
 .padding-left{
-    /* text-align: center; */
     padding-left:2px;
     font-size: 18px;
 }
